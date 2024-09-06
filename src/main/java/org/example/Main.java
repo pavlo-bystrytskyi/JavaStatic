@@ -31,5 +31,17 @@ public class Main {
         System.out.println(count3);
         System.out.println(count4);
         System.out.println(count5);
+
+        int sum = Calculator.add(5, 6);
+        System.out.println("The addition is: " + sum);
+
+        int subtraction = Calculator.subtract(10, 6);
+        System.out.println("The subtraction is: " + subtraction);
+
+        int division = Calculator.divide(12, 6);
+        System.out.println("The division is: " + division);
+
+        int multiplication = Calculator.multiply(5, 6);
+        System.out.println("The multiplication is: " + multiplication);
     }
 }

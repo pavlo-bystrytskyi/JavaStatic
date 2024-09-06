@@ -12,5 +12,12 @@ public class Count {
         this.instanceCount++;
     }
 
+    @Override
+    public String toString() {
+        return " Count{" +
+                " instanceCount= " + instanceCount +
+                " totalCount= " + Count.totalCount +
 
+                '}';
+    }
 }
